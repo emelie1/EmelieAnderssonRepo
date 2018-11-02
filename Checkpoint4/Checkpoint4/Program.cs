@@ -8,6 +8,14 @@ namespace Checkpoint4
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Best movies ever!");
+
+            var movies = new string[] { "Soldier of Domination" };
+           
+
+            foreach (var item in movies)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
